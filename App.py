@@ -13,7 +13,7 @@ if variable:
    time_series = np.random.randn(2000)
    fig, ax = plt.subplots()
    # Plot the time series
-  plt.set_title("Random 100-Unit Time Series")
-  plt.set_xlabel("Time")
-  plt.set_ylabel("Value")
+  ax.set_title("Random 100-Unit Time Series")
+  ax.set_xlabel("Time")
+  ax.set_ylabel("Value")
   st.pyplot(fig)
