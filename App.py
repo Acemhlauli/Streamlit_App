@@ -11,7 +11,7 @@ button_clicked = st.button("This is my button")
 
 if button_clicked:
     # Generate random time series data
-    time_series = np.random.randn(2000)
+    time_series = np.random.randn(200)
     
     # Create figure and axis
     fig, ax = plt.subplots()
@@ -20,7 +20,7 @@ if button_clicked:
     ax.plot(time_series)
     
     # Set labels and title
-    ax.set_title("Random 100-Unit Time Series")
+    ax.set_title("Random 200-Unit Time Series")
     ax.set_xlabel("Time")
     ax.set_ylabel("Value")
 
